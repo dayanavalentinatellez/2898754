@@ -1,7 +1,11 @@
 public class hello{
 
-    public static void main(String[] args){
-        System.out.println("Hello World");
+    public static void main(String[] args) {
+        int num1 = 5;
+        int num2 = 7;
+        int sum = num1 + num2;
         
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum + ".");
     }
+
 }
